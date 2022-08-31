@@ -1,4 +1,4 @@
-# shop_app
+# shop_app using Firebase
 
 A new Flutter project.
 
