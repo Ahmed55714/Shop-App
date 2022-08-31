@@ -19,9 +19,6 @@ class ProductDetailScreen extends StatelessWidget {
       listen: false,
     ).findById(productId);
     return Scaffold(
-      appBar: AppBar(
-        title: Text(loadedProduct.title),
-      ),
       body: CustomScrollView(
         slivers: [
           SliverAppBar(
